@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: #171717;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: calc(100vh - 125px);
+    color: white;
+    overflow-y: auto;
+    padding: 5px;
+  }
+  
+  #wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding: 5px;
+  }
+  
+  header button {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+    margin: 3px;
+  }
+  
+  .box {
+    padding: 0px 30px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .gap {
+    gap: 10px;
+  }
+  
+  .wrap {
+    flex-wrap: wrap;
+  }
+  
+  .end {
+    justify-content: flex-end;
+  }
+  
+  .start {
+    justify-content: flex-start;
+  }
+  
+  .center {
+    justify-content: center;
+  }
+  
+  footer {
+    width: 100%;
+    height: 75px;
+    background-color: #262626;
+    z-index: 800;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .user-card {
+    width: calc(100% / 6);
+    padding: 5px;
+  }
+  
+  .img-user img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .img-user {
+    position: relative;
+  }
+  
+  .img-user span {
+    position: absolute;
+    width: 40%;
+    background-color: rgba(74, 74, 74, 0.5);
+    color: white;
+    bottom: 5px;
+    left: 0;
+    text-align: center;
+  }
+  
+  footer button.btn-large i {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  
+  footer .ri-arrow-drop-up-line {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .between {
+    justify-content: space-between;
+  }
+  
+  button.btn {
+    margin-top: 5px;
+    cursor: pointer;
+    border: 1px solid #262626;
+    background-color: #262626;
+    color: #fff;
+  }
+  
+  button.btn-small {
+    min-height: 25px;
+    padding: 0px 10px;
+  }
+  
+  button.btn-large {
+    min-height: 50px;
+    padding: 8px 15px;
+  }
+  
+  .red {
+    color: red;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 15px;
+    border: 0;
+    margin: 3px;
+  }
+  
+  button.btn i {
+    vertical-align: middle;
+  }
+  
+  footer .ri-arrow-drop-up-line {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  footer button.btn-large i {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  
